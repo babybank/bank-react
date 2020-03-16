@@ -1,0 +1,1 @@
+npx mongoimport --host ReactReserve-shard-0/reactreserve-shard-00-00-cw13g.mongodb.net:27017,reactreserve-shard-00-01-cw13g.mongodb.net:27017,reactreserve-shard-00-02-cw13g.mongodb.net:27017 --ssl --username babybank --password 1234567890 --authenticationDatabase admin --collection products --type json --file ./static/products.json --jsonArray
